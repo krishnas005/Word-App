@@ -2,13 +2,13 @@ import React from 'react';
 
 const Navbar = () => {
   return (
-    <nav className="bg-white dark:bg-gray-900 shadow-md mb-6">
+    <nav className="bg-gray-900 shadow-md mb-6">
       <div className="max-w-6xl mx-auto px-4">
         <div className="flex justify-between items-center h-16">
           <div className="flex-shrink-0">
             <a 
               href="/" 
-              className="text-xl font-semibold text-gray-800 dark:text-white"
+              className="text-xl font-semibold text-white"
             >
               Word-App
             </a>
